@@ -1,4 +1,4 @@
-def maiorValor(msg, *num):
+def maiorValor(msg, *num): # O '*' faz com que o parâmetro 'num' se torne uma tupla e possa receber várias entradas de dados
     maior = 0
     for dados in num:
         if dados > maior:
